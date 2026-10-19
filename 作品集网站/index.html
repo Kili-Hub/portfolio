@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>未竟之塔 · 游戏 Wiki</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topbar"><div class="topbar-in">
+  <div class="brand">未竟之塔</div>
+  <nav class="nav">
+    <a class="on" href="index.html">首页</a>
+    <a href="growth.html">成长系统</a>
+    <a href="tower.html">未竟之塔</a>
+    <a href="enemies.html">敌人图鉴</a>
+    
+  </nav>
+</div></div>
+<div class="wrap">
+
+  <section class="hero">
+    <div>
+      <h1><span class="en">UNFINISHED TOWER</span>未竟之塔</h1>
+      <p class="lead">Q 版像素风、幸存者类自动战斗 Roguelite。当前 Demo：草原 + 森林，约 28 分钟。</p>
+      <p class="sub">Godot 4 开发。系统、数值、UI、代码与自动化测试由本人独立完成。</p>
+      <p style="margin-top:18px">
+        <span class="tag">自动攻击</span><span class="tag">天命技能</span><span class="tag">波末三选一</span>
+        <span class="tag">四货币</span><span class="tag">跨轮回刻痕</span>
+      </p>
+    </div>
+    <figure style="margin:0">
+      <img class="img" src="img/battle.png" alt="战斗画面">
+      <figcaption>初醒原 · 战斗画面</figcaption>
+    </figure>
+  </section>
+
+  <div class="card">
+    <p class="lead" style="margin:0;text-align:center">在轮回的长行中，记忆会替你拾遗。</p>
+  </div>
+
+  <h2>世界与地区</h2>
+  <p>五片地区组成这条长行。每一区都有自己的名字，也有自己的一句注脚。</p>
+  <table>
+    <tr><th>地区</th><th>定位</th><th>注脚</th></tr>
+    <tr><td>初醒原（草原）</td><td>序章 · Demo 第一关，8 分钟</td><td>「不记得来路的人，先记住脚下。」</td></tr>
+    <tr><td>槐庭（森林）</td><td>Demo 第二关，20 分钟</td><td>「树还在长。路已经换了。」</td></tr>
+    <tr><td>汀渊（沼泽）</td><td>Demo 之后</td><td>「水收下了一切。你上岸了。」</td></tr>
+    <tr><td>燧野（沙漠）</td><td>Demo 之后</td><td>「火照过的路，比记忆可靠。」</td></tr>
+    <tr><td>飒台（浮岛）</td><td>Demo 之后</td><td>「断掉的地方，风替你过了。」</td></tr>
+  </table>
+  <p>三人在初醒原醒来。穿过各层之后，旅途的终点是魔王所在的城堡。</p>
+  <p class="sub">未竟之塔不在路上 —— 它每过一段路就会出现一次，是三人休整与存放记忆的地方（见「未竟之塔」页）。</p>
+
+  <h2>货币系统</h2>
+  <table>
+    <tr><th>货币</th><th>来源</th><th>用途</th><th>持续周期</th></tr>
+    <tr><td>屑</td><td>击杀即入账</td><td>祝福系统（升级三选一）</td><td>本关</td></tr>
+    <tr><td>忆质</td><td>击杀即入账</td><td>未竟之塔的祭台</td><td>跨关结转</td></tr>
+    <tr><td>魂</td><td>归还未竟之影、结算</td><td>刻痕系统</td><td>跨轮回</td></tr>
+  </table>
+
+  <h2>勇者们</h2>
+  <p>三人共用一套成长体系，数值按「强在哪、弱在哪」互补设计。基础攻击以百分比计。</p>
+  <table>
+    <tr><th>属性</th><th>剑之勇者</th><th>杖之勇者</th><th>弓之勇者</th></tr>
+    <tr><td>血量</td><td>×1.4</td><td>×0.8</td><td>×0.9</td></tr>
+    <tr><td>移速</td><td>×0.95</td><td>×1.00</td><td>×1.10</td></tr>
+    <tr><td>基础攻击</td><td>100%</td><td>70%</td><td>100%</td></tr>
+    <tr><td>每级攻击成长</td><td>+0%</td><td>+2%（前 5 级 +4%）</td><td>+0%</td></tr>
+    <tr><td>第 10 级攻击</td><td>100%</td><td>100%（追平点）</td><td>100%</td></tr>
+    <tr><td>第 30 级攻击</td><td>100%</td><td>140%</td><td>100%</td></tr>
+    <tr><td>武器形态</td><td>近战扇形（剑/斧/镰）</td><td>远程群伤（法杖/法器）</td><td>单体＋贯穿（弓）</td></tr>
+    <tr><td>被动</td><td>地形减速抗性 −40%；受击无敌帧更长</td><td>无</td><td>屏边预警提前 0.5s；距离越远伤害越高</td></tr>
+  </table>
+
+  <h2>从哪开始看</h2>
+  <div class="grid g3">
+    <a class="tile" href="growth.html"><b>成长系统</b><span>祝福 / 天命 / 影 / 神器 / 刻痕，五套数值表</span></a>
+    <a class="tile" href="tower.html"><b>未竟之塔</b><span>波末存档点、祭台、光球与入口</span></a>
+    <a class="tile" href="enemies.html"><b>敌人图鉴</b><span>小怪、掉洞、小 Boss 与大 Boss</span></a>
+  </div>
+
+  <div class="pager"><span></span><a href="growth.html">成长系统 →</a></div>
+
+</div>
+<footer>未竟之塔 · 个人项目　|　设定与数值依据《产品设计方案 v4.2》《策划案 正式版》《世界观正文 定稿》</footer>
+</body>
+</html>
